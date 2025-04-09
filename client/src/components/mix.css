@@ -1,0 +1,126 @@
+/* Main form container */
+.form_data {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading section */
+.form_heading h1 {
+    font-size: 26px;
+    color: #1a1a1a;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form_heading p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.form_input {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form_input label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form_input input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.form_input input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Password field with show button */
+.two {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.two input {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.showpass {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Login Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #002244;
+}
+
+/* Sign-up link */
+p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+.showpass {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    transition: 0.3s;
+}
+
+.showpass:hover {
+    color: #0056b3;
+}
+
+.showpass.active {
+    color: #ff0000; /* Red color for "Hide" */
+}
